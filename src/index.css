@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li.nav-item {
+  margin-left: 10px;
+  list-style: none;
+  float: left;
+}
+
+.footer {
+  position: fixed;
+  margin-top: 30px;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  /* line-height: 60px; */
+  background-color: #f5f5f5;
+}
+.rightside{
+  float: right;
+}
+
+li.nav-item span {
+  margin-left: 15px;
+  float: left;
+  margin-top: 8px;
+}
+
+.nav-container-color{
+  background-color: honeydew;
+}
+.username{
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.container-margin{
+  margin-bottom: 80px !important;
+}
+
+li.nav-item span a {
+  margin-right: 10px;
+}
+
+.dropdown-menu-right {
+  right: auto !important;
+  left: auto;
+}
+
+.card-row-box{
+  margin-bottom: 80px;
+}
+
+.single-card-box{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.wishlist-container{
+margin-right: 10px;
+}
+
+.header-title{
+  display: flex !important;
+  justify-content: center !important;
+
+}
+
+.welcome-message{
+  margin-left: 5px;
+}
+
+.homepage-title{
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.browse-inner{
+  float: left;
+  margin-bottom: 100px;
+  margin-left: 90px !important;
+}
+
+.browse-inner .col-3 img {
+  height: auto;
+  width: 15rem;
+}
+
+.w3l-movie-gride-agile {
+
+  margin-right: 8% !important;
+  margin-bottom: 5% !important;
+  
+}
+
+
+.alert-section-message{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header-login{
+  float: right;
+  margin-left: auto;
+}
+
+.header-title-logo{
+  margin-left: auto;
+}
+
+
+.container-margin h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.sign-upform,.login-form{
+  margin-bottom: 80px;
+  margin-top: 10px;
+}
+
+.alert-section-message-card {
+  margin-top: 15px;
+}
+
+.movie-text{
+  margin-top: 5px;
+}
+
+
+.page-not-found {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 80px;
+  color: red;
+}
+
+/* .social-icon{
+  text-align: end;
+} */
+
+/* .social-icon.col img {
+  padding-left: 10px;
+  margin-top: 5px;
+} */
+
+.ribben.two {
+ 
+  left: 1% !important;
+}
+
+.navbar-brand a{
+  color: rgba(0,0,0,.9);
+}
+.new-movie-release h2,.all-movie{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+.wishlist-container a span {
+  margin-left: 5px;
+}
+
+
+
+.button-comment{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-comment .comment-button{
+  margin-bottom: 10px;
+}
+
+.footer-container{
+  margin-top: 10px;
+}
+
+.panel-nav-bar{
+  text-align: end;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 80px;
+}
+.border-bottom-nav-top{
+  margin-bottom: 10px;
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .main-container{
+    margin-bottom: 5rem !important;
+  }
+}
+
+ 
