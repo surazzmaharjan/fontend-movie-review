@@ -81,7 +81,20 @@ class editUserProfile extends React.Component{
         }
 
 
-   
+    componentDidMount(){
+            axios.get("http://localhost:4000/user/single/"+this.props.match.params.id,this.state.config)
+            .then(res => {
+                this.setState({
+                    firstname: res.data.firstname,
+                    lastname: res.data.lastname,
+                    address: res.data.address,
+                });
+              })
+              .catch((error) => {
+                console.log(error);
+              })
+            }
+
    
 
       
